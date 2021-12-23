@@ -10,6 +10,9 @@ fn bubble_sort<T: Ord>(arr: &mut [T]) {
 
 fn main() {
     let mut vec: Vec<i32> = vec![1, 3, 4, 5, 2];
+    let mut strings = ["beach", "hotel", "airplane", "car", "house", "art"];
     bubble_sort(&mut vec);
+    bubble_sort(&mut strings);
     println!("{:?}", vec);
+    println!("{:?}", strings);
 }

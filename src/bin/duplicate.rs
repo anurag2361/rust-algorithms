@@ -7,7 +7,7 @@ fn are_there_duplicates(arr: Vec<i32>) -> bool {
     for i in 0..arr.len() {
         obj.entry(arr[i]).and_modify(|v| *v += 1).or_insert(1);
     }
-    for (key, value) in &obj {
+    for (key, _value) in &obj {
         if obj.get(&key).unwrap() > &1 {
             return true;
         }

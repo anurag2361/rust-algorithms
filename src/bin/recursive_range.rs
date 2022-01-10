@@ -6,7 +6,7 @@ fn recursive_range(num: i32) -> i32 {
     if num == 1 {
         return total;
     }
-    return (num + recursive_range(num - 1));
+    return num + recursive_range(num - 1);
 }
 
 fn main() {

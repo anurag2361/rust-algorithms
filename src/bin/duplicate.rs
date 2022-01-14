@@ -18,5 +18,5 @@ fn are_there_duplicates(arr: Vec<i32>) -> bool {
 fn main() {
     let newvec = vec![1, 2, 3];
     let result = are_there_duplicates(newvec);
-    println!("{:?}", result);
+    println!("{result}");
 }

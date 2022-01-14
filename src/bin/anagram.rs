@@ -23,5 +23,5 @@ fn main() {
     let name1 = "abc";
     let name2 = "bac";
     let result = check_anagram(name1, name2);
-    println!("{}", result);
+    println!("{result}");
 }

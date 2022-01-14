@@ -24,5 +24,5 @@ fn main() {
     let array: Vec<i16> = vec![10, 2, 3, 4, 5, 6, 7, 8, 9, 1];
     let value_to_search: i16 = 10;
     let result = binary_search(array, value_to_search);
-    println!("Result: {}", result);
+    println!("Result: {result}");
 }

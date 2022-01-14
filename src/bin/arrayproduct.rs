@@ -11,5 +11,5 @@ fn array_product(arr: Vec<usize>) -> usize {
 fn main() {
     let vec = vec![1, 2, 3];
     let result = array_product(vec);
-    println!("{:?}", result);
+    println!("{result}");
 }

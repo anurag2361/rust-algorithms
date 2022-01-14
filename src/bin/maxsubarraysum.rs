@@ -27,7 +27,7 @@ fn main() {
     let num: i32 = 2;
     let result = max_sub_array_sum(newvec, num);
     match result {
-        Some(v) => println!("Result: {}", v),
+        Some(v) => println!("Result: {v}"),
         None => println!("Number needs to be smaller than the array size"),
     }
 }

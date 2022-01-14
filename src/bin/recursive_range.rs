@@ -11,5 +11,5 @@ fn recursive_range(num: i32) -> i32 {
 
 fn main() {
     let result = recursive_range(4);
-    println!("{}", result);
+    println!("{result}");
 }

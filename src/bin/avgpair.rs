@@ -25,5 +25,5 @@ fn main() {
     let arr = vec![1, 2, 3];
     let avg: f32 = 2.5;
     let result: bool = avg_pair(arr, avg);
-    println!("{:?}", result);
+    println!("{result}");
 }

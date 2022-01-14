@@ -8,5 +8,5 @@ fn factorial(arg: i128) -> i128 {
 fn main() {
     let num: i128 = 4;
     let result = factorial(num);
-    println!("{}", result);
+    println!("{result}");
 }

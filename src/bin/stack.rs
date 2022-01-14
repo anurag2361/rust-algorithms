@@ -1,5 +1,3 @@
-use std::mem::replace;
-
 #[derive(Debug, Clone, PartialEq)]
 struct StackNode<T: std::marker::Copy> {
     value: T,

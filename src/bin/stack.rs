@@ -64,6 +64,7 @@ fn main() {
     let mut value: Stack<i32> = Stack::new();
     value.push(10);
     value.push(20);
+    value.traverse();
     value.pop();
     value.traverse();
 }
